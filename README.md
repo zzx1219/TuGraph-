@@ -14,7 +14,7 @@
 
 点击browser进入登录界面，输入所给的账号密码。
 
-（此处插入系统登录截图）
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919134126_40_48.png)
 
 ---
 
