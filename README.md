@@ -24,25 +24,40 @@
 
 本次实验建立了person和movie两种点类型，以及连接点的边类型produce。
 
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919110214_13_48.png)
+
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919110246_14_48.png)
+
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919110305_15_48.png)
+
 模型建立完成后的结果如下：
 
-（此处插入模型截图）
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919172242_42_48.png)
 
 ### 2. 数据导入
 
 将csv进行导入，对应点和边的属性。
 
-数据导入结果如下：
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919110429_16_48.png)
 
-（此处插入数据导入截图）
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919110530_17_48.png)
 
 ### 3. 增加数据
 
 使用CREATE语句向图数据库中增加节点或关系。
 
 运行结果如下：
+1.创建person节点
 
-（此处插入增加数据截图）
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919120320_32_48.png)
+
+2.创建movie节点
+
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919125515_34_48.png)
+
+3.给person添加照片
+
+
 
 ### 4. 查询数据
 
@@ -50,7 +65,23 @@
 
 运行结果如下：
 
-（此处插入查询截图）
+1.查询所有节点
+
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919110838_19_48.png)
+
+2.根据标签匹配节点
+
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919111104_20_48.png)
+
+3.根据标签和属性匹配节点
+
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919111237_22_48.png)
+
+4.匹配任意关系
+
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919111530_24_48.png)
+
+5.过滤匹配
 
 ### 5. 删除数据
 
