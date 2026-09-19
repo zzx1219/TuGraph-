@@ -8,6 +8,8 @@
 
 首先完成阿里云TuGraph平台的部署，按教程进入部署入口，申请了试用服务，并创建服务，获得了部署的browser、password、ssh等。
 
+![](https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919101212_8_48.png)
+
 ### 2. 系统登录
 
 点击browser进入登录界面，输入所给的账号密码。
