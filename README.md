@@ -83,13 +83,19 @@
 
 5.过滤匹配
 
+https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919111931_25_48.png
+
+https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919114158_28_48.png
+
+https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919114219_29_48.png
+
 ### 5. 删除数据
 
 使用DELETE等语句删除指定节点或关系。
 
-运行结果如下：
+https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919132023_36_48.png
 
-（此处插入删除数据截图）
+https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919132221_37_48.png
 
 ---
 
@@ -105,3 +111,4 @@
 MATCH (p:person)-[produce]-(mnmovie) RETURN p.name AS 人名, p.born AS 出生年份, count(m) AS 制作电影数 ORDER BY 制作电影数 DESC
 ```
 ### 3. 查询结果
+https://github.com/zzx1219/TuGraph-/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260919155922_41_48.png
